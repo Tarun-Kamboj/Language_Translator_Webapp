@@ -1,0 +1,79 @@
+body, html {
+	height: 100%;
+	max-width: 100%;
+    overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	background-image: linear-gradient(to top, rgba(100, 170, 255,1), rgba(100, 170, 255,0));
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	font-size: 1.8rem;
+	font-family: 'Alata', sans-serif;
+	scroll-behavior: smooth;
+}
+a:hover {
+  text-decoration: none;
+}
+#navstrip{
+	height: 150px;
+	width: 100%;
+	background: rgba(100, 170, 255,0);
+}
+.navbox{
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	transform: translate(-50%,-50%);
+	display: flex;
+	z-index: 10;
+}
+.contact{
+	position: absolute;
+	align-items: center;
+	display: flex;
+}
+.fa{
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	line-height: 100px;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #333333;
+}
+.option{
+	width: 100px;
+	height: 100px;
+	background: #ffffff00;
+	transition: all .5s;
+	overflow: hidden;
+}
+.option span{
+	color: #333333;
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: 'Alata', sans-serif;
+}
+.option:hover{
+	width: 240px;
+}
+.white{
+	background: #fff;
+}
+.logo{
+	width: 350px;
+}
+.btn{
+	height: 100px;
+	width: 270px;
+	font-size: 1.8rem;
+}
+#text{
+	height: 350px;
+	font-size: 1.8rem;
+}
+#lang1, #lang2{
+	height: 100px;
+	font-size: 1.8rem;
+}

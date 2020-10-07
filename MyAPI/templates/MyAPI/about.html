@@ -1,0 +1,57 @@
+{% extends "MyAPI/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+	<div id="navstrip">
+		<div class="navbox">
+			<div class="option">
+				<a href="{% url 'home' %}"><i class="fa fa-home" aria-hidden="true"></i>
+				<span>Home</span></a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-1 col-lg-2 col-xl-2 col-sm-1 col-1"></div>
+		<div class="col-md-10 col-lg-8 col-xl-8 col-sm-10 col-10">
+			<h1>About</h1>
+			<br>
+			<h5>This is a language translator which allows you to translate text of one language to another. Enter some text in the text area, select the languages and boom! the text is translated. Right now it has 13 language options.</h5>
+			<br>
+			<h2>Powered By <a href="https://www.ibm.com/watson" target="_blank"><img src="{% static 'MyAPI/IBM_Watson_logo.png' %}" class="logo"></a></h2>
+			<h5>This application uses <a href="https://www.ibm.com/watson" target="_blank">IBM Watson</a> at the back-end for translation and is built using <a href="https://www.djangoproject.com/" target="_blank">Django</a>.</h5>
+			<br>
+			<h2>Developed by <a href="https://www.linkedin.com/in/kambojtarun/" target="_blank"><img src="{% static 'MyAPI/name_logo.png' %}" class="logo"></a></h2>
+			<h5>This application is developed by <a href="https://www.linkedin.com/in/kambojtarun/" target="_blank">Tarun Kamboj</a>, visit the links below to contact or know more about the developer.</h5>
+			<br>
+			<div class="contact">
+				<div class="option">
+					<a href="https://www.linkedin.com/in/kambojtarun/" target="_blank">
+					<i class="fa fa-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
+				</div>
+				<div class="option">
+					<a href="https://github.com/Tarun-Kamboj" target="_blank">
+					<i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
+				</div>
+				<div class="option">
+					<a href="mailto:%20kambojtarun02@gmail.com" target="_blank">
+					<i class="fa fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+				</div>
+				<div class="option">
+					<a href="https://kambojtarun.pythonanywhere.com/" target="_blank">
+					<i class="fa fa-user-astronaut" aria-hidden="true"></i><span>Portfolio</span></a>
+				</div>
+				<div class="option">
+					<a href="https://www.instagram.com/___.t_a_r_u_n.___/" target="_blank">
+					<i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+				</div>
+				<div class="option">
+					<a href="https://twitter.com/kamboj_tarun_02" target="_blank">
+					<i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1 col-lg-2 col-xl-2 col-sm-1 col-1"></div>
+	</div>	
+{% endblock %}
