@@ -7,4 +7,4 @@
 ![made-with-Django](https://img.shields.io/badge/Django-3.0-43993d?style=for-the-badge&logo=Django)
 ![made-with-IBMWatson](https://img.shields.io/badge/Watson-4.5-8682ff?style=for-the-badge&logo=IBM)
 
-This is a language translator which allows you to translate text of one language to another. Click [here](http://languageinterpreter.herokuapp.com) to try for yourself.
+This is a language translator which allows you to translate text of one language to another. Click [here](http://languageinterpreter.herokuapp.com) to try by yourself.
