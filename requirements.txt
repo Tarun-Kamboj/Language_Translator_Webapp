@@ -8,7 +8,7 @@ gunicorn==20.0.4
 h5py==2.10.0
 ibm-cloud-sdk-core==1.7.3
 ibm-watson==4.7.1
-idna==2.10
+idna==3.7
 joblib==0.16.0
 numpy==1.22.0
 pandas==1.1.2
