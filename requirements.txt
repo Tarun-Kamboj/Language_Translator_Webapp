@@ -24,7 +24,7 @@ six==1.15.0
 sklearn==0.0
 sqlparse==0.3.0
 threadpoolctl==2.1.0
-urllib3==1.26.5
+urllib3==1.26.19
 websocket-client==0.48.0
 whitenoise==5.2.0
 wincertstore==0.2
